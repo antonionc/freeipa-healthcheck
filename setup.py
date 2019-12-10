@@ -56,6 +56,7 @@ setup(
         # plugin modules for ipahealthcheck.system registry
         'ipahealthcheck.system': [
             'filesystemspace = ipahealthcheck.system.filesystemspace',
+            'myplugin = ipahealthcheck.system.myplugin',
         ],
     },
     classifiers=[
